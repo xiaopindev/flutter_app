@@ -23,23 +23,6 @@ void main() async {
   await DatabaseHelper().initDatabase();
   await Firebase.initializeApp();
 
-  //所支持的语言
-  final supportedLocales = [
-    const Locale('ar'),
-    const Locale('de'),
-    const Locale('en'),
-    const Locale('es'),
-    const Locale('fr'),
-    const Locale('it'),
-    const Locale('ja'),
-    const Locale('ko'),
-    const Locale('pt'),
-    const Locale('id'),
-    const Locale('vi'),
-    const Locale('th'),
-    const Locale('fil'),
-    const Locale('zh', 'Hant')
-  ];
   // 获取系统语言代码
   Locale systemLocale = PlatformDispatcher.instance.locale;
 
@@ -110,7 +93,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
           //基础配置
           debugShowCheckedModeBanner: false, // 隐藏调试标志
           navigatorObservers: [observer],
-          title: 'Flutter App',
+          title: 'flutter_app',
           theme: global.themeVC.theme,
           home: const LaunchLoadingPage(),
           defaultTransition: Transition.rightToLeft, //默认路由动画,iOS默认是rightToLeft

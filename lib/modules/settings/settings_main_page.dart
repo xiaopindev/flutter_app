@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:flutter_app/generated/assets.dart';
 import 'package:flutter_app/pp_kits/pp_kits.dart';
 
-import 'settings_controller.dart';
+import 'controllers/settings_controller.dart';
 
 class SettingsMainPage extends GetView<SettingsController> {
   const SettingsMainPage({super.key});

@@ -24,12 +24,16 @@ migrate_working_dir/
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
+.fvm/
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
 /build/
+dist/
+symbols/
+pubspec.lock
 
 # Symbolication related
 app.*.symbols

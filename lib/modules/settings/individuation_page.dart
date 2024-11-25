@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:flutter_app/generated/assets.dart';
 import 'package:flutter_app/pp_kits/pp_kits.dart';
 
-import 'individuation_controller.dart';
+import 'controllers/individuation_controller.dart';
 
 class IndividuationPage extends StatelessWidget {
   final controller = Get.put(IndividuationController());

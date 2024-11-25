@@ -5,7 +5,7 @@ import '../globals/iap_purchase.dart';
 import '../globals/network.dart';
 import '../modules/app_review/app_review_controller.dart';
 import '../modules/app_versioin/new_version.dart';
-import '../modules/settings/settings_controller.dart';
+import '../modules/settings/controllers/settings_controller.dart';
 
 class GetBindingsController implements Bindings {
   @override

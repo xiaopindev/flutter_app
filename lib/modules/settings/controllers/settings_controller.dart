@@ -1,23 +1,12 @@
-import 'dart:async';
-import 'dart:io';
-
-import 'package:archive/archive.dart';
-import 'package:file_picker/file_picker.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_app/configs/constants.dart';
-import 'package:flutter_app/configs/events.dart';
 import 'package:flutter_app/configs/routers.dart';
-import 'package:flutter_app/datachannels/method_channel.dart';
 import 'package:flutter_app/generated/assets.dart';
 import 'package:flutter_app/modules/common/base/base_controller.dart';
-import 'package:flutter_app/modules/database/db_helper.dart';
 import 'package:flutter_app/pp_kits/pp_kits.dart';
-import 'package:intl/intl.dart';
-import 'package:path_provider/path_provider.dart';
 
-import '../app_review/app_review_controller.dart';
+import '../../app_review/app_review_controller.dart';
 
 class SettingsController extends BaseController {
   final appRevew = Get.find<AppReviewController>();

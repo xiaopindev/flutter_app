@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 /*
+在页面上面弹出一个动画弹窗
 Get.dialog(
   Align(
     alignment: Alignment.center,

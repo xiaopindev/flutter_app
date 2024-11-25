@@ -6,7 +6,7 @@ import 'package:flutter_app/generated/assets.dart';
 import 'package:flutter_app/modules/common/base/base_controller.dart';
 import 'package:flutter_app/pp_kits/pp_kits.dart';
 
-import '../../globals/theme/theme_controller.dart';
+import '../../../globals/theme/theme_controller.dart';
 
 class IndividuationController extends BaseController {
   /* #region 状态属性 */

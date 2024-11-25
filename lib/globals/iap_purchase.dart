@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_app/configs/events.dart';
 import 'package:flutter_app/modules/common/base/base_controller.dart';
 import 'package:flutter_app/pp_kits/pp_kits.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
